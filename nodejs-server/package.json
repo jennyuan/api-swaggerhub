@@ -1,6 +1,6 @@
 {
-  "name": "testla-model-s-api",
-  "version": "0.0.1",
+  "name": "tesla-model-s-api",
+  "version": "0.02",
   "description": "demo API",
   "main": "index.js",
   "scripts": {

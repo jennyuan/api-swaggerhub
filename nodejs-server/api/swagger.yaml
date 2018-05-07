@@ -2,8 +2,8 @@
 swagger: "2.0"
 info:
   description: "demo API"
-  version: "0.0.1"
-  title: "Testla Model S API"
+  version: "0.02"
+  title: "Tesla Model S API"
 host: "virtserver.swaggerhub.com"
 basePath: "/jennyuan/Tesla-ModelS-API/0.0.1"
 schemes:
@@ -76,10 +76,15 @@ definitions:
         type: "number"
         format: "double"
         example: 25.53844000000000136196831590496003627777099609375
+      longitude:
+        type: "number"
+        format: "double"
+        example: -80.408940000000001191438059322535991668701171875
     example:
       shift_state: "normal"
       latitude: 25.53844000000000136196831590496003627777099609375
       speed: 4.5
+      longitude: -80.408940000000001191438059322535991668701171875
   inline_response_200:
     properties:
       color:

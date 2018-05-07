@@ -13,7 +13,8 @@ exports.drive_state = function(id) {
     examples['application/json'] = {
   "shift_state" : "normal",
   "latitude" : 25.53844,
-  "speed" : 4.5
+  "speed" : 4.5,
+  "longitude" : -80.40894
 };
     if (Object.keys(examples).length > 0) {
       resolve(examples[Object.keys(examples)[0]]);
